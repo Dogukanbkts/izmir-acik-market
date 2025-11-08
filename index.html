@@ -3,10 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>İzmir Açık Market - Paket Servis Hizmeti</title>
-  <meta name="description" content="İzmir’in tüm ilçelerine anında teslimat yapan premium paket servis hizmeti. Soğuk içecekler, market ürünleri ve temel ihtiyaçlar kapınıza gelir.">
-  <meta name="keywords" content="İzmir paket servis, hızlı teslimat, soğuk içecek, market ürünleri, online market, paket servis">
-  <meta name="author" content="İzmir Açık Market">
+  <title>İzmir Açık Market - Paket Servis</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="https://img.icons8.com/ios-filled/50/FFD700/shop.png">
   <style>
@@ -17,7 +14,7 @@
     }
 
     .accent { color: #FFD700; }
-    .highlight { color: #00FF00; } 
+    .highlight { color: #00FF00; } /* neon yeşil vurgu */
     .bg-accent { background-color: #FFD700; }
 
     .whatsapp-float {
@@ -41,6 +38,7 @@
     .whatsapp-float:hover { transform: scale(1.15); }
 
     footer { padding-bottom: 40px; }
+    img.hero-img { max-height: 500px; object-fit: cover; border-radius: 1rem; }
   </style>
 </head>
 <body>
@@ -53,22 +51,20 @@
   <!-- Hero Section -->
   <section class="pt-28 pb-12 text-center">
     <div class="max-w-4xl mx-auto">
-      <img 
-        src="C:\Users\CS_SUPPORT\Desktop\albuztek.jpeg" 
-        alt="İzmir Açık Market Görseli" 
-        class="rounded-2xl shadow-2xl w-full mb-6"
-        style="height: 400px; object-fit: cover; object-position: center top;">
+      <img src="albuztek.jpeg" 
+           alt="Market Görseli" 
+           class="hero-img shadow-2xl w-full mb-6">
       <h2 class="text-3xl md:text-4xl font-semibold mb-4 highlight">İzmir’in Her Yerine Paket Servis 🚚</h2>
       <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-6">
-        İzmir’in tüm ilçelerine anında teslimat yapan profesyonel paket servis hizmetidir. 
-        Soğuk içecekler, market ürünleri ve temel ihtiyaçlar kapınıza gelir! Hızlı, güvenli ve özenli hizmet sunuyoruz.
+        İzmir’in tüm ilçelerine anında teslimat yapan profesyonel bir paket servis hizmetidir.  
+        Soğuk içecekler, market ürünleri ve temel ihtiyaçlar kapınızda!
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">
         <a href="tel:05513503516"
            class="inline-block px-6 py-3 bg-accent text-black font-semibold rounded-full shadow-lg hover:scale-105 transition">
            📞 Hemen Ara
         </a>
-        <a href="https://wa.me/905451925055?text=Merhaba%2C%20paket%20servisinizden%20sipariş%20vermek%20istiyorum." 
+        <a href="https://wa.me/905451925055?text=Merhaba%2C%20paket%20servisinden%20sipariş%20vermek%20istiyorum." 
            target="_blank" 
            class="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition">
            📲 WhatsApp ile Sipariş Ver
@@ -82,9 +78,8 @@
     <div class="max-w-5xl mx-auto px-4">
       <h3 class="text-3xl font-semibold accent mb-6">Hakkımızda</h3>
       <p class="text-gray-300 leading-relaxed max-w-3xl mx-auto">
-        İzmir Açık Market, İzmir’in tüm ilçelerine hızlı ve güvenilir teslimat sunan premium bir paket servis hizmetidir. 
-        Özenle seçilmiş soğuk içecekler, market ürünleri ve temel ihtiyaçlar; kalite, hız ve güven anlayışıyla 
-        dakikalar içinde kapınıza ulaştırılır.
+        İzmir Açık Market, İzmir’in tüm ilçelerine hızlı ve güvenli paket servis hizmeti sunar.  
+        Geniş ürün yelpazemizle, soğuk içeceklerden market ürünlerine ve temel ihtiyaçlarınıza kadar her şeyi kapınıza getiriyoruz.
       </p>
     </div>
   </section>
@@ -94,11 +89,12 @@
     <div class="max-w-5xl mx-auto px-4">
       <h3 class="text-3xl font-semibold accent mb-8">İletişim</h3>
       <p class="text-lg mb-4">📞 <span class="font-semibold">0551 350 35 16</span></p>
+      <p class="text-lg">✉️ info@izmiracikmarket.com</p>
     </div>
   </section>
 
   <!-- WhatsApp Button -->
-  <a href="https://wa.me/905451925055?text=Merhaba%2C%20paket%20servisinizden%20sipariş%20vermek%20istiyorum." 
+  <a href="https://wa.me/905451925055?text=Merhaba%2C%20paket%20servisinden%20sipariş%20vermek%20istiyorum." 
      target="_blank" 
      class="whatsapp-float" 
      aria-label="WhatsApp">
